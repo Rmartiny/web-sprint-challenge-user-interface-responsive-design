@@ -214,9 +214,15 @@ footer {
     color: #fff;
 }
 
-/* mobile media query */
 @media (max-width: 428px) {
     /* header section */
+    .header-title {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 4rem;
+    }
+}
     
 
     /* gallery section */
@@ -269,3 +275,5 @@ footer {
         font-size: 2rem;
     }
 }
+/* mobile media query */
+]
